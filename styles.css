@@ -43,6 +43,25 @@ section {
     margin-bottom: 2rem;
 }
 
+.section-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: calc(25% - 1rem); /* 4 images per row */
+    max-width: 350px; /* Adjust max width to increase or decrease the size of the images */
+    height: auto;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
